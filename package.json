@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^4.7.1",
     "@tanstack/react-query": "^4.19.1",
     "@trpc/client": "^10.4.3",
     "@trpc/next": "^10.4.3",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.20",
+    "prisma": "^4.7.1",
     "tailwindcss": "^3.2.4"
   }
 }

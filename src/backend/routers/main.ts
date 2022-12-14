@@ -2,7 +2,13 @@ import { router, procedure } from "../init";
 
 export const app = router({
   example: procedure.query(() => {
-    return { msg: "this message come from backend" };
+    return { msg: "Hi from tRPC" };
+  }),
+  withPrisma: procedure.query(async ({ ctx }) => {
+    const count = await ctx.prisma.example.count();
+    return {
+      count
+    };
   }),
 });
 
