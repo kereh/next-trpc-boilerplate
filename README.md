@@ -25,6 +25,7 @@ $ yarn dev
 - [Next.js](https://nextjs.org/docs/getting-started)
 - [Tailwindcss](https://tailwindcss.com/)
 - [tRPC](https://trpc.io/docs/nextjs)
+- [Prisma](https://prisma.io/)
 
 *Note : if u wanna use the real fullstack boilerplate u can check this one [create T3 app](https://create.t3.gg/)
 
